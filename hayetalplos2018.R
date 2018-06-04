@@ -192,11 +192,11 @@ title("Male Words")
 par(mfcol=c(1,2))
 plotLMER.fnc(exp4ACC, pred="cTrial", fun=plogis,
              intr=list("Sex", c("female", "male"), "end", list(c("red", "darkblue"), c(1, 2))),
-             control=list("conditionmale-real", 0), cex=1, xlabel="Trial (scaled and centred)", ylim=c(.87, .99), ylabel="Predicted Accuracy", lwd=2, ilabel="Participant")
+             control=list("conditionmale-real", 0), cex=1, xlabel="Trial", ylim=c(.87, .99), ylabel="Predicted Accuracy", lwd=2, ilabel="")
 title("female-real condition")
 plotLMER.fnc(exp4ACC, pred="cTrial", fun=plogis,
              intr=list("Sex", c("female", "male"), "end", list(c("red", "darkblue"), c(1, 2))),
-             control=list("conditionmale-real", 1), cex=1, xlabel="Trial (scaled and centred)", ylim=c(.87, .99),ylabel="Predicted Accuracy", lwd = 2, ilabel="Participant")
+             control=list("conditionmale-real", 1), cex=1, xlabel="Trial", ylim=c(.87, .99),ylabel="Predicted Accuracy", lwd = 2, ilabel="")
 title("male-real condition")
 
 
